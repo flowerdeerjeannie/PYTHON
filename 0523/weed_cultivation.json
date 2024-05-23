@@ -1,0 +1,122 @@
+[
+     {
+         "coordinates": [47.6062, -122.3321],
+         "city": "Seattle",
+         "farm_name": "Evergreen Farms",
+         "date_planted": "2024-03-01",
+         "plants_count": 600,
+         "strain": "Sour Diesel",
+         "growth_stage": "Vegetative",
+         "temperature": 18,
+         "humidity": 55,
+         "ph_level": 6.6
+     },
+     {
+         "coordinates": [36.1699, -115.1398],
+         "city": "Las Vegas",
+         "farm_name": "Desert Bloom",
+         "date_planted": "2024-02-15",
+         "plants_count": 800,
+         "strain": "White Widow",
+         "growth_stage": "Flowering",
+         "temperature": 28,
+         "humidity": 40,
+         "ph_level": 6.7
+     },
+     {
+         "coordinates": [61.2181, -149.9003],
+         "city": "Anchorage",
+         "farm_name": "Northern Lights Farm",
+         "date_planted": "2024-01-10",
+         "plants_count": 400,
+         "strain": "Northern Lights",
+         "growth_stage": "Harvesting",
+         "temperature": 15,
+         "humidity": 65,
+         "ph_level": 6.5
+     },
+     {
+         "coordinates": [45.7833, -108.5007],
+         "city": "Billings",
+         "farm_name": "Big Sky Gardens",
+         "date_planted": "2024-04-10",
+         "plants_count": 450,
+         "strain": "Jack Herer",
+         "growth_stage": "Vegetative",
+         "temperature": 20,
+         "humidity": 50,
+         "ph_level": 6.8
+     },
+     {
+         "coordinates": [42.3314, -83.0458],
+         "city": "Detroit",
+         "farm_name": "Motor City Greens",
+         "date_planted": "2024-03-15",
+         "plants_count": 550,
+         "strain": "Granddaddy Purple",
+         "growth_stage": "Flowering",
+         "temperature": 22,
+         "humidity": 60,
+         "ph_level": 6.6
+     },
+     {
+         "coordinates": [40.7128, -74.0060],
+         "city": "New York City",
+         "farm_name": "Empire Cannabis",
+         "date_planted": "2024-02-20",
+         "plants_count": 700,
+         "strain": "Gorilla Glue #4",
+         "growth_stage": "Harvesting",
+         "temperature": 17,
+         "humidity": 55,
+         "ph_level": 6.7
+     },
+     {
+         "coordinates": [30.2672, -97.7431],
+         "city": "Austin",
+         "farm_name": "Lone Star Farms",
+         "date_planted": "2024-01-05",
+         "plants_count": 300,
+         "strain": "AK-47",
+         "growth_stage": "Vegetative",
+         "temperature": 25,
+         "humidity": 45,
+         "ph_level": 6.4
+     },
+     {
+         "coordinates": [25.7617, -80.1918],
+         "city": "Miami",
+         "farm_name": "Sunshine State Cultivators",
+         "date_planted": "2024-04-05",
+         "plants_count": 650,
+         "strain": "Pineapple Express",
+         "growth_stage": "Flowering",
+         "temperature": 30,
+         "humidity": 55,
+         "ph_level": 6.5
+     },
+     {
+         "coordinates": [33.4484, -112.0740],
+         "city": "Phoenix",
+         "farm_name": "Desert Oasis Gardens",
+         "date_planted": "2024-03-10",
+         "plants_count": 500,
+         "strain": "Blueberry Kush",
+         "growth_stage": "Harvesting",
+         "temperature": 28,
+         "humidity": 40,
+         "ph_level": 6.6
+     },
+     {
+         "coordinates": [21.3069, -157.8583],
+         "city": "Honolulu",
+         "farm_name": "Aloha Farms",
+         "date_planted": "2024-02-25",
+         "plants_count": 750,
+         "strain": "Maui Wowie",
+         "growth_stage": "Vegetative",
+         "temperature": 25,
+         "humidity": 65,
+         "ph_level": 6.7
+     }
+ ]

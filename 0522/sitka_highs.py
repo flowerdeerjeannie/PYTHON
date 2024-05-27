@@ -1,10 +1,8 @@
 from pathlib import Path
 import csv
 from datetime import datetime
-
 import matplotlib.pyplot as plt
-import os
-print(os.getcwd())
+
 
 path = Path('/works/works_python/0522/sitka_weather_2021_simple.csv')
 #파일 내용 읽기. 각 줄을 요소로 하는 리스트.
@@ -27,29 +25,27 @@ for row in reader: # row : row0-"USW00025333",row1-"SITKA AIRPORT, AK US",row2-"
     try:
         high = int(row[4])
         low = int(row[5])
-        av = int(row[3])
     except ValueError:
         print(f"missing value={row}")
     else:
         dates.append(current_date)
         highs.append(high)
         lows.append(low)
-        avgs.append(av)
 
 
 
 # Plot the high temperatures.
 plt.style.use('seaborn-v0_8')
-fig, ax = plt.subplots()
-ax.plot(dates, highs, color='red', alpha=0.5)
-ax.plot(dates, lows, color='blue', alpha=0.5)
-ax.plot(dates, avgs, color='green', alpha=0.5)
-ax.fill_between(dates, highs, lows, facecolor = 'black', alpha=0.1)
+fig, ax2 = plt.subplots()
+ax2.plot(dates, highs, color='green', alpha=0.5)
+ax2.plot(dates, lows, color='orange', alpha=0.5)
+ax2.fill_between(dates, highs, lows, facecolor = 'black', alpha=0.1)
 # Format plot.
-ax.set_title("Daily High Temperatures, 2021", fontsize=24)
-ax.set_xlabel('', fontsize=16)
+ax2.set_title("Daily High Temperatures, 2021", fontsize=24)
+ax2.set_xlabel('', fontsize=16)
 fig.autofmt_xdate()
-ax.set_ylabel("Temperature (F)", fontsize=16)
-ax.tick_params(labelsize=16)
+ax2.set_ylabel("Temperature (F)", fontsize=16)
+ax2.tick_params(labelsize=16)
+
 
 plt.show()
